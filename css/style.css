@@ -17,7 +17,7 @@ body {
 .header {
   margin: 0 auto;
   background-color: #000000;
-  background-image: url(cityline.png);
+  /* background-image: url(cityline.png); */
   background-repeat: no-repeat;
   height: 15%;
   width: auto;
@@ -67,6 +67,7 @@ body {
 
 nav {
   margin: 0px;
+  vertical-align: middle;
 }
 
 ul {
@@ -100,7 +101,7 @@ li a {
   font-size: 36px;
   /* border-radius: 5px; */
 
-  transition: all 3s ease;
+  transition: all .5s ease;
 }
 
 li.active a {
@@ -110,8 +111,8 @@ li.active a {
 
 a:hover {
   background: #117bff;
-  border: 25px solid #117bff;
-  border-radius: 50%;
+  border-radius: 10px;
+  border: 12px solid #117bff;
   cursor: pointer;
   color: black;
   width: 250px;
